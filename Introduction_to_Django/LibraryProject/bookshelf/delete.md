@@ -1,2 +1,3 @@
 python manage.py shell
-new_book.delete() #(1, {'bookshelf.Book': 1})
+from bookshelf.models import Book
+Book.objects.all().delete() #(1, {'bookshelf.Book': 1})
