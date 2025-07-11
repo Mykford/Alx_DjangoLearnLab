@@ -1,4 +1,5 @@
 python manage.py shell
-new_book.name = "Nineteen Eighty-Four"
-new_book.save()
-new_book.name # 'Nineteen Eighty-Four'
+
+book.title= "Nineteen Eighty-Four"
+book.save()
+new_book.title # 'Nineteen Eighty-Four'
